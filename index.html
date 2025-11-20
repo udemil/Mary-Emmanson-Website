@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mary Emmanson Foundation</title>
+  <meta name="description" content="Mary Emmanson Foundation - ME empowering through education, health and innovation." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">Mary Emmanson Foundation</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#get-involved">Get Involved</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Mary Emmanson - ME</h1>
+        <p><i>Empowering the people through education, health and innovation</i></p>
+        <p>
+          <a class="btn" href="#donate">Donate Now</a>
+          <a class="btn ghost" href="#get-involved">Be a Volunteer</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About Us</h2>
+      <p>
+        The Mary Emmanson Foundation is a non-profit organisation registered to work in partnership with individuals,
+        organizations and government to bring education, healthcare and innovation to those in need through development projects.
+      </p>
+      <ul>
+        <li>Vision: A thriving, educated, innovative and healthy society.</li>
+        <li>Mission: Deliver practical projects in partnership with all stakeholders through education, healthcare and innovation.</li>
+      </ul>
+    </section>
+
+    <section id="programs" class="container section alt">
+      <h2>Our Programs</h2>
+      <div class="grid">
+        <article>
+          <h3>Education Support</h3>
+          <p class="readmore">
+            School materials, scholarships and teacher training for rural schools.
+            <span class="moreText">
+              Our NGO is dedicated to transforming lives through access to quality education. We believe that every
+              individual, regardless of background, deserves the opportunity to learn, grow, and reach their full potential.
+              Through targeted programs, teacher training, and community engagement, we work to bridge educational gaps and
+              empower learners of all ages. By providing resources, mentorship, and innovative learning methods, we strive
+              to create a future where education is a powerful tool for change and equality.
+            </span>
+            <button class="readMoreBtn" type="button">Read more</button>
+          </p>
+        </article>
+
+        <article>
+          <h3>Healthcare</h3>
+          <p class="readmore">
+            Community health outreach, screenings and maternal care support.
+            <span class="moreText">
+              Improving health outcomes is at the heart of our mission. We focus on expanding access to healthcare, promoting
+              preventive measures, and supporting vulnerable communities. Our initiatives include health education campaigns,
+              medical outreach, and partnerships with local clinics and hospitals. By addressing both immediate needs and
+              long-term health challenges, we aim to build healthier, more resilient communities where everyone has the chance
+              to live a life of dignity and well-being.
+            </span>
+            <button class="readMoreBtn" type="button">Read more</button>
+          </p>
+        </article>
+
+        <article>
+          <h3>Innovation</h3>
+          <p class="readmore">
+            Introducing new approach to solving daily challenges through innovative ways.
+            <span class="moreText">
+              Innovation is the engine of progress. We champion creative solutions to social challenges by supporting
+              entrepreneurship, fostering collaboration, and investing in new ideas. Our projects connect visionaries with
+              resources, mentorship, and networks to turn bold concepts into real-world impact. From technology-driven health
+              solutions to novel approaches in education, we empower changemakers to shape a brighter, more inclusive future for all.
+            </span>
+            <button class="readMoreBtn" type="button">Read more</button>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="get-involved" class="container section">
+      <h2>Get Involved</h2>
+      <p>You can volunteer, partner, or sponsor a program. Contact us to learn more.</p>
+      <p><a class="btn" href="#contact">Contact Us</a></p>
+    </section>
+
+    <section id="donate" class="container section alt">
+      <h2>Donate</h2>
+      <p>Your donation helps us run projects. Secure payment options are available via PayPal or Flutterwave. Use the button below to donate:</p>
+
+      <!-- Example PayPal donate button (replace link with your PayPal link) -->
+      <p>
+        <a class="btn" href="https://www.paypal.com/donate?hosted_button_id=YOUR_BUTTON_ID"
+           target="_blank" rel="noopener">Donate with PayPal</a>
+      </p>
+
+      <p>OR you can contact us for direct bank or local transfer details.</p>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>Use the form below or email us at <strong>info@maryemmanson.org</strong></p>
+
+      <!-- Formspree example (replace with your Formspree endpoint or Netlify Forms) -->
+      <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label>
+          Name
+          <input name="name" required />
+        </label>
+        <label>
+          Email
+          <input name="email" type="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div id="formResponse" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Mary Emmanson Foundation — Registered NGO. All rights reserved.</p>
+      <p>Follow us: <a href="#" aria-label="Mary Emmanson Foundation Facebook">Facebook</a> • <a href="#" aria-label="Twitter">Twitter</a></p>
+    </div>
+  </footer>
+
+  <!-- Make sure this points to the correct JS file -->
+  <script src="scripts.js"></script>
+</body>
+</html>
